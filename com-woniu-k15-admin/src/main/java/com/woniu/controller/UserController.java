@@ -52,6 +52,10 @@ public class UserController {
 
     @RequestMapping("unauthenticated")
     public ResponseResult<Object> unauthenticatedFail(){
+		System.out.println("==========");
+		System.out.println("==========");
+		System.out.println("=============");
+		System.out.println("=============");
         return new ResponseResult("token非法",400);
     }
 
