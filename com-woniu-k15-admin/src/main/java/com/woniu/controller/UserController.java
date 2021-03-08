@@ -1,4 +1,4 @@
-package com.woniu.controller;
+﻿package com.woniu.controller;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -52,10 +52,18 @@ public class UserController {
 
     @RequestMapping("unauthenticated")
     public ResponseResult<Object> unauthenticatedFail(){
+ 
 		System.out.println("==========");
 		System.out.println("==========");
 		System.out.println("=============");
 		System.out.println("=============");
+ 
+		System.out.println("i love you");
+		System.out.println("i love you");
+		System.out.println("i love you");
+		System.out.println("i love you");
+		System.out.println("i love you");
+ 
         return new ResponseResult("token非法",400);
     }
 
